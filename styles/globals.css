@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.hero {
+ background: linear-gradient(45deg, #5e17eb, #cfb8ff);
+ position: fixed;
+ width: 100%;
+ height: 100%;
+}
+
+.shadow2 {
+ box-shadow: 0 0 10px 5px rgba(113, 115, 119, 0.5);
+}
+
+.contact {
+ background: url("../public/image/contactbg.png") center/cover no-repeat;
+ height: 35rem;
+}
